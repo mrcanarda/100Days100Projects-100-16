@@ -1,0 +1,141 @@
+/*
+
+font-family: 'Commissioner', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/******************* GLOBAL VARIABLES ***********/
+
+:root {
+  --Color-ein: #fbffa7;
+  --Color-zwei: #ff764d;
+  --Color-drei: #b1c5ff;
+  --Color-viel: #d5b3ff;
+  --Color-funf: #b6ffc0;
+  --Color-sechs: #0000ff;
+}
+
+/************************
+*********** NAV *******
+**********************/
+
+.logo__img {
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+.logo__img {
+  margin-right: 2rem;
+}
+
+.navg_2 {
+  margin-left: 3rem;
+  background-color: #fff;
+}
+
+.navg {
+  background-color: #fff;
+}
+
+.navg__ {
+  border: 2px solid #3333335c;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.nav__link:hover,
+.nav__link:active {
+  color: var(--Color-zwei);
+}
+
+.try__free_link:link,
+.try__free_link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.try__free_link:hover,
+.try__free_link:active {
+  color: var(--Color-sechs);
+}
+
+.register:link,
+.register:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.register:hover,
+.register:active {
+  color: #333;
+}
+
+.list:link,
+.list:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-zwei);
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.list:hover,
+.list:active {
+  color: #333;
+}
+
+.register_list:link,
+.register_list:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-zwei);
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.register_list:hover,
+.register_list:active {
+  color: var(--Color-zwei);
+}
+
+.buy__now:link,
+.buy__now:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.buy__now:hover,
+.buy__now:active {
+  color: var(--Color-sechs);
+}
