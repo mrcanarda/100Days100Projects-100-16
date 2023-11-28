@@ -39,8 +39,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navg__ {
-  border: 2px solid #3333335c;
+  border-bottom: 2px solid #3333335c;
 }
+
+/************************
+***** NAV LINKS *******
+**********************/
 
 .main-nav-list {
   list-style: none;
@@ -107,7 +111,7 @@ font-family: 'Roboto', sans-serif;
 
 .list:hover,
 .list:active {
-  color: #333;
+  color: var(--Color-zwei);
 }
 
 .register_list:link,
@@ -137,5 +141,23 @@ font-family: 'Roboto', sans-serif;
 
 .buy__now:hover,
 .buy__now:active {
+  color: var(--Color-sechs);
+}
+
+.learn__more__link:link,
+.learn__more__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+
+  font-family: "Commissioner", sans-serif;
+}
+
+.learn__more__link:hover,
+.learn__more__link:active {
   color: var(--Color-sechs);
 }

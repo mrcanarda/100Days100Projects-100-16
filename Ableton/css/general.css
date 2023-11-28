@@ -40,6 +40,24 @@ html {
   margin-left: 54rem;
 }
 
+.scr__shpng {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40rem;
+}
+
+.scr__shpng > p {
+  color: #333;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.meal-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 .logo__img {
   width: 7rem;
   margin-left: 2rem;
