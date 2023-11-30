@@ -153,11 +153,209 @@ font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   transition: all 0.3s;
   list-style: none;
-
   font-family: "Commissioner", sans-serif;
 }
 
 .learn__more__link:hover,
 .learn__more__link:active {
   color: var(--Color-sechs);
+}
+
+/************************
+********* HOME PAGE
+***********LINK *****
+**********************/
+
+.save__link:link,
+.save__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  margin-top: 30rem;
+  margin-left: 3rem;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.save__link:hover,
+.save__link:active {
+  color: var(--Color-sechs);
+}
+
+.shop__ion {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.only__link:link,
+.only__link:visited {
+  display: inline-block;
+  color: var(--Color-ein);
+  margin-top: 10rem;
+  margin-left: 7rem;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.only__link:hover,
+.only__link:active {
+  color: var(--Color-ein);
+}
+
+.order__ion {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.new__link:link,
+.new__link:visited {
+  display: inline-block;
+  color: var(--Color-zwei);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.new__link:hover,
+.new__link:active {
+  color: var(--Color-zwei);
+}
+
+.order__ion {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.new__note > p {
+  font-family: "Commissioner", sans-serif;
+  font-size: 2rem;
+  color: var(--Color-zwei);
+  margin-top: 15rem;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+.the__latest__link:link,
+.the__latest__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  display: flex;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.the__latest__link:hover,
+.the__latest__link:active {
+  color: var(--Color-sechs);
+}
+
+.the__latest > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+
+/************************
+********* ART INFOS *****
+**********************/
+
+.artists__img {
+  width: 40rem;
+  height: 20rem;
+}
+
+.art__jobs {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.2rem;
+  width: 6rem;
+  height: 3rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  background-color: #fed134;
+}
+
+.art__link:link,
+.art__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  display: flex;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  color: #000;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.art__link:hover,
+.art__link:active {
+  color: #000;
+}
+
+.art__names {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+  margin-top: 1.2rem;
+}
+
+.news__art {
+  background-color: var(--Color-viel);
+}
+
+.discover__icn {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.icn__ {
+  width: 1.2rem;
+  margin-top: 0.7rem;
+  padding-left: 0.5rem;
+}
+
+.art__infos__:link,
+.art__infos__:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  display: flex;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  color: #000;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.art__infos__:hover,
+.art__infos__:active {
+  color: #000;
+}
+
+/************************
+********* HIDDEN *****
+**********************/
+
+.hidden {
+  display: none;
 }

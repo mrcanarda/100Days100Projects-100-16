@@ -28,6 +28,10 @@ html {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid--7-cols {
+  grid-template-columns: repeat(7, 1fr);
+}
+
 .grid--9-cols {
   grid-template-columns: repeat(9, 1fr);
 }
@@ -71,4 +75,60 @@ html {
   margin-top: 2rem;
   margin-left: 3rem;
   background-color: #fff;
+}
+
+/**************
+***** HOME PAGE LINKS ****
+*******/
+
+.savezwanzig {
+  background-image: url(../img/F-save20.jpeg);
+  height: 50rem;
+  background-size: cover;
+}
+
+.only__until {
+  top: 36%;
+  left: 70%;
+  position: absolute;
+  background-image: url(../img/onlyuntilnovember.jpeg);
+  background-size: cover;
+  width: 40rem;
+  height: 34rem;
+}
+
+.new__note {
+  top: 70%;
+  left: 48%;
+  position: absolute;
+  background-image: url(../img/wesley-tingey-4q_1c0rd1A0-unsplash.jpg);
+  background-size: cover;
+  width: 40rem;
+  height: 30rem;
+}
+
+.home__page__links {
+  margin-top: 30rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.the__latest__links {
+  margin-left: 22rem;
+  gap: 3rem;
+}
+
+.links__ {
+  align-items: center;
+}
+
+.artists__ {
+  margin-top: 5rem;
+}
+
+.expand__link__ {
+  margin-top: 5rem;
+  align-items: center;
+  align-content: stretch;
+  gap: 48rem;
 }
