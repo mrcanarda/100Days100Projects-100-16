@@ -132,3 +132,37 @@ html {
   align-content: stretch;
   gap: 48rem;
 }
+
+.one__thing {
+  gap: 20rem;
+}
+
+.more__homepage {
+  margin-top: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+/*****************+
+*** FOOTER *********
+********************/
+
+.fotter {
+  margin-top: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.one__footer__links {
+  margin-top: 6rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ion__social__media {
+  width: 4rem;
+  height: 4rem;
+}
