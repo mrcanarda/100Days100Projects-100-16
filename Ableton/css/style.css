@@ -444,6 +444,92 @@ font-family: 'Roboto', sans-serif;
   margin-bottom: 12rem;
 }
 
+/*****************+
+*** LIVE PAGE *********
+********************/
+
+.live__12__page__header {
+  font-family: "Commissioner", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 6rem;
+}
+
+.video__under__paragraph {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.4rem;
+  margin-left: 1.4rem;
+  font-weight: 500;
+}
+
+.find__out {
+  font-family: "Commissioner", sans-serif;
+  font-size: 3rem;
+  margin-top: 6rem;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+.jump__lst {
+  font-size: 1.4rem;
+}
+
+.jump__link {
+  font-size: 1.4rem;
+}
+
+.jump__link:link,
+.jump__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  text-decoration: none;
+  display: flex;
+  font-weight: 300;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.jump__link:hover,
+.jump__link:active {
+  color: var(--Color-sechs);
+}
+
+.jumpp__ {
+  margin-top: 2.4rem;
+  align-items: center;
+  align-self: center;
+}
+
+.twoo__ {
+  padding-top: 8rem;
+  background-color: #ebf0dc;
+}
+
+.twoo__ > h1 {
+  margin-bottom: 8rem;
+  margin-left: 7rem;
+  font-weight: 500;
+  font-family: "Commissioner", sans-serif;
+  font-size: 6rem;
+}
+
+.reshape > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.reshape > p {
+  margin-top: 2rem;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+}
+
 /************************
 ********* HIDDEN *****
 **********************/

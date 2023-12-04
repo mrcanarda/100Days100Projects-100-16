@@ -147,6 +147,45 @@ html {
 }
 
 /*****************+
+*** LIVE PAGE *********
+********************/
+
+.live__12__page__two {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.live__page__links {
+  margin-bottom: 4rem;
+}
+
+.live__12__video__page {
+}
+
+.guitar__video {
+  height: 89rem;
+  width: 144rem;
+}
+
+.play__freely__with {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.reshape {
+  flex-direction: column;
+}
+
+.page__exp {
+  margin-top: 5rem;
+  margin-left: 12rem;
+  margin-right: 5rem;
+  gap: 1rem;
+}
+
+/*****************+
 *** FOOTER *********
 ********************/
 
