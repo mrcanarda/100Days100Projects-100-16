@@ -159,9 +159,6 @@ html {
   margin-bottom: 4rem;
 }
 
-.live__12__video__page {
-}
-
 .guitar__video {
   height: 89rem;
   width: 144rem;
@@ -179,10 +176,36 @@ html {
 }
 
 .page__exp {
-  margin-top: 5rem;
+  margin-top: 12rem;
   margin-left: 12rem;
   margin-right: 5rem;
   gap: 1rem;
+}
+
+.reshape__img {
+  width: 50rem;
+}
+
+.two {
+  margin-top: 12rem;
+  margin-left: 22rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.three__ {
+  margin-right: 0rem;
+  gap: 2rem;
+}
+
+.tuning__ {
+  margin-top: 2rem;
+}
+
+.four__ {
+  margin-left: 0rem;
+  gap: 4rem;
 }
 
 /*****************+
